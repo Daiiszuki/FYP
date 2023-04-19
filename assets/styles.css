@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+label, option, input[type="text"], .Select-value-label, .Select-placeholder {
+    color: #39ff14 !important;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+
+    background-color: black;
+    width: 100%;
+    color: #80ff00; /* neon green color */
+    text-align: center;
+}
+
+.Select-control {
+    
+    background-color: rgb(2, 2, 2);
+    top: 50%;
+    transform: translateY(50%);
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    display: flex
+  }
+
+
+  .dropdown-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin: 'auto';
+    
+  }
+  
+
+
+
+#tradingview-widget {
+    background-color: #000000;
+  }
+  
+

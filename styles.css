@@ -1,0 +1,83 @@
+/* Set the body background color to black */
+body {
+    background-color: black;
+  }
+  
+  /* Set the text color to green */
+body, h1, h2, h3, h4, h5, h6, p, a {
+    color: green;
+  }
+  
+  /* Set the hyperlink color to neon green */
+a {
+    color: #00FF00;
+  }
+  
+  /* Add a neon green border to images */
+img {
+    border: 2px solid #00FF00;
+  }
+  
+  /* Add a transparent neon green background to the header */
+.navbar {
+    background-color: rgba(3, 3, 3, 0.5);
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Add a neon green border and transparent background to the headings */
+h1, h2, h3, h4, h5, h6 {
+    background-color: rgba(0, 255, 0, 0.2);
+  }
+  
+
+  
+  /* Add a neon green border and transparent background to buttons */
+button {
+     
+    background-color: rgba(0, 255, 0, 0.2);
+  }
+  
+  /* Add a neon green border and transparent background to input fields */
+ 
+  
+  
+.navbar-brand, .navbarNav {
+    display: flex;
+    align-items: center;
+  }
+  
+.navbar-brand {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+  }
+  
+.navbarNav {
+    display: flex;
+    align-items: center;
+    height: 100px; /* Adjust this value to your liking */
+  }
+  
+  @media (max-width: 767px) {
+.navbarNav {
+      height: auto;
+    }
+  }
+  
+.navbar {
+    height: 100px;
+    padding-top: calc((100vh - 100px) / 2);
+    padding-bottom: calc((100vh - 100px) / 2);
+  }
+  
+
+.nav-link{
+    font-size: 46px;
+    text-decoration: none;
+}
+.navbar-nav{
+    text-decoration: none;
+    list-style: none;
+}
