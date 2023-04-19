@@ -4,22 +4,30 @@ Decentralised Financial Data Analytics
 >> The file is arranged as follows:
 
 
-DataAcquisitionAndPreprocessing.ipynb
-1. Loading Of Python Packages 
-2. Data Sourcing And Loading 
-3. Exploratory Data Analysis
-4. Data Preparation
-4.1. Data Cleaning And Preprocessing  
-
-
-ModelTraining.ipynb
-
-5.Loading Of Python Packages 
-6. Load preprocessed data 
-7.Model And Environment Definition 
-8.Model  Training 
-9. Model Evaluation And Backtesting 
-8.1 Data Split 
+**DataAcquisitionAndPreprocessing.ipynb**
+- Loading Of Python Packages 
+- Data Sourcing And Loading 
+- Exploratory Data Analysis
+- Data Preparation
+- Data Cleaning And Preprocessing  
 
 
 
+**ModelTraining.ipynb**
+
+- Loading Of Python Packages 
+- Load preprocessed data 
+- Model And Environment Definition 
+- Model  Training 
+
+**Evaluation.ipynb**
+- Model Evaluation And Backtesting On 'Unseen' Data
+
+
+
+Future work:
+-Real-time data streaming analytics dashbord
+- Hyperparamer tuning post training
+- Test with more granular timeframe
+- Paper trading on aplpaca
+- Realtime allocation monitoring 
