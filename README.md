@@ -1,7 +1,7 @@
 # FYP
 Decentralised Financial Data Analytics 
 
->> The file is arranged as follows:
+>> The repo is arranged as follows:
 
 
 **DataAcquisitionAndPreprocessing.ipynb**
@@ -25,7 +25,7 @@ Decentralised Financial Data Analytics
 
 
 
-Future work:
+Future work & enhancements:
 -Real-time data streaming analytics dashbord
 - Hyperparamer tuning post training
 - Test with more granular timeframe
